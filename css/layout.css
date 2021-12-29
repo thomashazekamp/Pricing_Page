@@ -1,0 +1,204 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+   /* clip-path: polygon(51% 0, 21% 51%, 59% 100%, 0 100%, 0% 50%, 0 0);*/
+    background-image: url(../images/background.pn);
+    background-position: center;
+    background-size: cover;
+    padding-left:5% ;
+    padding-right: 5%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    position:relative;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    width: 	400px;
+    cursor: pointer;
+    
+}
+
+.cart{
+    width: 	100px;
+}
+
+nav{
+    flex: 1;
+    padding-left:60px ;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    background: linear-gradient(45deg, #00AEFF, #0FFF00 );
+    border-radius: 8px;
+    padding:10px 20px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,20);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.content h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:black;
+}
+
+.content p{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #003EFF  ;
+    font-weight: 100;
+}
+
+.content{
+    margin-left: 5% ;
+    margin-top: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.content .btn{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    display: inline-block;
+    background: linear-gradient(45deg, #00AEFF, #0FFF00 );
+    border-radius: 8px;
+    padding:10px 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(94,28,68,20);
+}
+
+.feature-img{
+    width: auto;
+    top: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 200px;
+    right: 10%;
+    border-radius: 80%;
+    box-shadow: 3px 8px 22px;
+    opacity: 100%;
+    
+
+
+    
+}
+
+/* Thomas's CSS start some edits have been made to the above default css*/
+
+
+.plan-layout p{
+    color: #ffd11a;
+    
+}
+.order-now  {
+    margin: 2.5% 30% 2.5% 30%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 3px 8px 22px black;
+    background-color: #ffd11a;
+}
+.order-now h3:hover {
+    background-color: #0073e6;
+    border-radius: 50px;
+}
+
+.order-now-text {
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+.footer {
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px
+}
+
+.features { /* inspiration from dcode */
+    border-collapse: collapse;
+    margin: 5% 5% 5% 25%
+}
+
+
+.features__cell {
+    max-width: 250px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    color: black;
+    border: 1px solid #dddddd;
+    line-height: 1.4;
+}
+td:hover {
+    background-color: #ffd11a;
+}
+tr:hover {
+    background-color: #ffd11a;
+}
+
+th:hover {
+    background-color: #ffd11a;
+}
+
+.features__cell--bold {
+    font-weight: bold;
+}
+
+.features__cell--shaded {
+    background: #5cd65c;
+}
+
+.features__cell--large {
+    font-size: 1.5em;
+}
+
+.features__cell--center {
+    text-align: center;
+}
+
+.features__tick::after {
+    content: "\2714";
+    font-size: 1.5em;
+    color: green;
+}
+
+.features__cross::after {
+    content: "\00d7";
+    font-size: 2em;
+    color: red;
+}
